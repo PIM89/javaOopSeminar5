@@ -5,7 +5,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**Класс реализует логирование*/
 public class Logger implements LogInterface {
+    /**Метод реализует запись в файл данных о
+     * 1. времени операции
+     * 2. наименование самой операции
+     * 3. числах, учавствующих в операции
+     * 4. результата вычисления*/
     @Override
     public void recLog(double x, double y, int operation, double res) {
         Map<Integer, String> oper = new HashMap<>();

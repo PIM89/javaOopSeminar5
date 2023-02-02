@@ -4,6 +4,8 @@ import Model.*;
 import View.View;
 import log.Logger;
 
+/**Класс создает связь между классоми View, Model и Logger
+ * Описывается взаимодействие с пользователем */
 public class Presenter {
     View view;
     Model model;

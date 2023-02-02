@@ -1,5 +1,6 @@
 package Model;
 
+/**Базовый класс*/
 public class Model implements ModelInterface {
     double x;
     double y;

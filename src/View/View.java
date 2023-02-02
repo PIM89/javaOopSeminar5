@@ -2,6 +2,7 @@ package View;
 
 import java.util.Scanner;
 
+/**Класс реализует ввод(вывод) данных*/
 public class View {
     Scanner scanner = new Scanner(System.in);
 
