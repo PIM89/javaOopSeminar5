@@ -1,7 +1,6 @@
 package log;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
